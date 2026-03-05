@@ -76,14 +76,14 @@ public class PasswordUtil {
         }
     }
 
-    // Test method to generate hash for '1234'
+    // Test method to generate hash for ''
     public static void main(String[] args) {
-        String password = "1234";
+        String password = "";
         String hashed = hashPassword(password);
         System.out.println("Plaintext password: " + password);
         System.out.println("Hashed password (store this in DB): " + hashed);
         System.out.println("\nVerification test:");
-        System.out.println("Correct password '1234': " + verifyPassword("1234", hashed));
-        System.out.println("Wrong password '12345': " + verifyPassword("12345", hashed));
+        System.out.println("Correct password '': " + verifyPassword("", hashed));
+        System.out.println("Wrong password '': " + verifyPassword("", hashed));
     }
 }

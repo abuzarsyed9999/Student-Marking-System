@@ -19,13 +19,13 @@ public class SMSService {
     private static final String SMS_PROVIDER = "MSG91";
     
     // 🔐 MSG91 Credentials - YOUR ACTUAL AUTH KEY INSERTED ✅
-    private static final String MSG91_AUTH_KEY = "495166Avl4DIahh6997e733P1";  // ← Your actual key
-    private static final String MSG91_SENDER_ID = "MSGIND";  // ← Pre-approved by Msg91 (no DLT needed)
-    private static final String MSG91_ROUTE = "4";  // Transactional route
+    private static final String MSG91_AUTH_KEY = "";  // ← Your actual key
+    private static final String MSG91_SENDER_ID = "";  // ← Pre-approved by Msg91 (no DLT needed)
+    private static final String MSG91_ROUTE = "";  // Transactional route
     private static final String MSG91_COUNTRY_CODE = "91";  // India
 
     // 🎯 Your test number for development
-    private static final String TEST_MOBILE = "+916301372060";
+    private static final String TEST_MOBILE = "";
 
     /**
      * Send SMS to parent with exam result

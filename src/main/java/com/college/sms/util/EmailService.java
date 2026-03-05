@@ -9,10 +9,10 @@ public class EmailService {
 
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
-    private static final String SMTP_USER = "abuzar7993@gmail.com";
-    private static final String SMTP_PASS = "brtlajsaxdoodpcp"; // Generate new app password after testing
+    private static final String SMTP_USER = "@gmail.com";
+    private static final String SMTP_PASS = ""; // Generate new app password after testing
 
-    private static final String FROM_NAME = "CollegeSMS";
+    private static final String FROM_NAME = "MITS";
     private static final String FROM_EMAIL = SMTP_USER;
 
     public static boolean sendResultEmail(String toEmail,
@@ -92,7 +92,7 @@ public class EmailService {
                                          String grade) {
 
         return String.format(
-                "Dear Parent,\n\n" +
+                "Dear Parent, From Mits CSE \n\n" +
                 "This is to inform you about the exam result of your ward:\n\n" +
                 "Student Name : %s\n" +
                 "Roll No      : %s\n" +
